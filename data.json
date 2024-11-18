@@ -14,12 +14,20 @@
         "location": "France",
         "image": "./assets/images/popular-2.jpg",
         "rating": 4
+      },
+      "destination_id_3": {
+        "title": "Burj Khalifa",
+        "description": "The city famous for the tallest building.",
+        "location": "Dubai",
+        "image": "./assets/images/popular-3.jpg",
+        "rating": 4
       }
+
     },
-    "packages": {
+   "packages": {
       "package_id_1": {
         "title": "Experience The Great Holiday On Beach",
-        "description": "Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque, cras, aspernatur.",
+        "description": "Discover the stunning beauty and rich culture of Malaysia, where modern cities meet ancient traditions and breathtaking landscapes.",
         "location": "Malaysia",
         "image": "./assets/images/packege-1.jpg",
         "duration": "7D/6N",
@@ -30,8 +38,8 @@
       },
       "package_id_2": {
         "title": "Summer Holiday To The Oxolotan River",
-        "description": "Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque, cras, aspernatur.",
-        "location": "Malaysia",
+        "description": "Paddle through the calm, pristine waters of the Oxolotan River, surrounded by towering trees and vibrant wildlife, for a truly immersive experience.",
+        "location": "Mexico",
         "image": "./assets/images/packege-2.jpg",
         "duration": "7D/6N",
         "pax": 10,
@@ -41,8 +49,8 @@
       },
       "package_id_3": {
         "title": "Santorini Island's Weekend Vacation",
-        "description": "Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque, cras, aspernatur.",
-        "location": "Malaysia",
+        "description": "Witness the world-famous Santorini sunset, where the sky transforms into a canvas of vibrant colors as it sets over the caldera.",
+        "location": "Greece",
         "image": "./assets/images/packege-3.jpg",
         "duration": "7D/6N",
         "pax": 10,
@@ -52,5 +60,6 @@
       }
     }
   }
+  
   
   

@@ -6,121 +6,71 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Travelore - Travel agancy</title>
-
-  <!-- 
-    - favicon
-  -->
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
-  <!-- 
-    - custom css link
-  -->
   <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!-- 
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
     rel="stylesheet">
-
-    <script type="module" src="firebaseData.js"></script> 
-    
-
-    
+  <script type="module" src="firebaseData.js"></script>  
 </head>
-
 <body id="top">
-
-  <!-- 
-    - #HEADER
-  -->
-
   <header class="header" data-header>
-
     <div class="overlay" data-overlay></div>
-
     <div class="header-top">
       <div class="container">
-
         <a href="tel:+01123456790" class="helpline-box">
-
           <div class="icon-box">
             <ion-icon name="call-outline"></ion-icon>
           </div>
-
           <div class="wrapper">
             <p class="helpline-title">For Further Inquires :</p>
-
-            <p class="helpline-number">+01 (123) 4567 90</p>
+            <p class="helpline-number">+91 9876543210</p>
           </div>
-
         </a>
-
         <a href="#" class="logo">
            <p style="color: #e7eaee; font-size:28px; font-weight: 600;">  <i class="fa-solid fa-globe fa-lg" style="color: #e7eaee;"> </i>  Travelore </p> 
         </a>
-
         <div class="header-btn-group">
-
           <button class="search-btn" aria-label="Search">
             <ion-icon name="search"></ion-icon>
           </button>
-
           <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
             <ion-icon name="menu-outline"></ion-icon>
           </button>
-
         </div>
-
       </div>
     </div>
-
     <div class="header-bottom">
       <div class="container">
-
         <ul class="social-list">
-
           <li>
             <a href="#" class="social-link">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
-
           <li>
             <a href="#" class="social-link">
               <ion-icon name="logo-twitter"></ion-icon>
             </a>
           </li>
-
           <li>
             <a href="#" class="social-link">
               <ion-icon name="logo-facebook"></ion-icon>
             </a>
           </li>
-
-        
-
         </ul>
-
         <nav class="navbar" data-navbar>
-
           <div class="navbar-top">
-
             <a href="#" class="logo">
               <img src="./assets/images/logo-blue.svg" alt="Travelore logo">
             </a>
-
             <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
               <ion-icon name="close-outline"></ion-icon>
             </button>
-
           </div>
-
           <ul class="navbar-list">
-
             <li>
               <a href="#home" class="navbar-link" data-nav-link>home</a>
             </li>
@@ -161,9 +111,6 @@
   <main>
     <article>
 
-      <!-- 
-        - #HERO
-      -->
 
       <section class="hero" id="home">
         <div class="container">
@@ -171,9 +118,7 @@
           <h2 class="h1 hero-title">Journey to explore world</h2>
 
           <p class="hero-text">
-            Ac mi duis mollis. Sapiente? Scelerisque quae, penatibus? Suscipit class corporis nostra rem quos
-            voluptatibus habitant?
-            Fames, vivamus minim nemo enim, gravida lobortis quasi, eum.
+            Are you ready to embark on the journey of a lifetime? Whether you’re looking to relax on a tropical beach, explore the wonders of ancient cities, or discover hidden gems off the beaten path, we’ve got you covered.
           </p>
 
           <div class="btn-group">
@@ -235,15 +180,6 @@
 
         </div>
       </section>
-
-
-
-
-
-      <!-- 
-        - #POPULAR
-      -->
-
       <section class="popular" id="destination">
         <div class="container">
 
@@ -252,147 +188,22 @@
           <h2 class="h2 section-title">Popular destination</h2>
 
           <p class="section-text">
-            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
-            Sit ornare
-            mollitia tenetur, aptent.
+            Looking for inspiration? These are the top destinations that travelers around the globe can’t get enough of. Whether you're craving adventure, relaxation, or cultural experiences, these iconic spots offer something for everyone.
           </p>
-
-
           <ul class="popular-list" id="popular-list">
             <!-- Dynamically filled by JS -->
           </ul>
-          
-        <!--  <ul class="popular-list">
-
-            <li>
-              <div class="popular-card">
-
-                <figure class="card-img">
-                  <img src="./assets/images/popular-1.jpg" alt="San miguel, italy" loading="lazy">
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-
-                  <p class="card-subtitle">
-                    <a href="#">Italy</a>
-                  </p>
-
-                  <h3 class="h3 card-title">
-                    <a href="#">San miguel</a>
-                  </h3>
-
-                  <p class="card-text">
-                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="popular-card">
-
-                <figure class="card-img">
-                  <img src="./assets/images/popular-2.jpg" alt="Burj khalifa, dubai" loading="lazy">
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-
-                  <p class="card-subtitle">
-                    <a href="#">Dubai</a>
-                  </p>
-
-                  <h3 class="h3 card-title">
-                    <a href="#">Burj khalifa</a>
-                  </h3>
-
-                  <p class="card-text">
-                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="popular-card">
-
-                <figure class="card-img">
-                  <img src="./assets/images/popular-3.jpg" alt="Kyoto temple, japan" loading="lazy">
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-
-                  <p class="card-subtitle">
-                    <a href="#">Japan</a>
-                  </p>
-
-                  <h3 class="h3 card-title">
-                    <a href="#">Kyoto temple</a>
-                  </h3>
-
-                  <p class="card-text">
-                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-        --> 
-
-          <button class="btn btn-primary">More destintion</button>
-
         </div>
       </section>
-
-
-
-
-
-      <!-- 
-        - #PACKAGE
-      -->
-
       <section class="package" id="package">
         <div class="container">
 
-          <p class="section-subtitle">Popular Packeges</p>
+          <p class="section-subtitle">Checkout Our Packeges</p>
 
-          <h2 class="h2 section-title">Checkout Our Packeges</h2>
+          <h2 class="h2 section-title">Popular Packeges</h2>
 
           <p class="section-text">
-            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
-            Sit ornare
-            mollitia tenetur, aptent.
+            Choose from our most sought-after travel packages, designed to give you the ultimate experience with convenience, luxury, and savings. Whether you're planning a romantic getaway, a family adventure, or a solo exploration, we have the perfect package for you!
           </p>
 
           <ul id="package-list" class="package-list"></ul>
@@ -418,9 +229,7 @@
           <h2 class="h2 section-title">Photo's From Travellers</h2>
 
           <p class="section-text">
-            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
-            Sit ornare
-            mollitia tenetur, aptent.
+            Get inspired by the breathtaking photos shared by our travelers! From vibrant sunsets and picturesque landscapes to candid moments and hidden gems, these snapshots tell the stories of unforgettable adventures around the world.
           </p>
 
           <ul class="gallery-list">
@@ -474,12 +283,10 @@
           <div class="cta-content">
             <p class="section-subtitle">Call To Action</p>
 
-            <h2 class="h2 section-title">Ready For Unforgatable Travel. Remember Us!</h2>
+            <h2 class="h2 section-title">Ready For Unforgatable Travel? Remember Us!</h2>
 
             <p class="section-text">
-              Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque
-              laudantium. Sit ornare
-              mollitia tenetur, aptent.
+              Have questions, need assistance, or want to plan your next dream getaway? We’d love to hear from you! Our team is dedicated to making your travel experience seamless and unforgettable.
             </p>
           </div>
 
@@ -507,13 +314,11 @@
         <div class="footer-brand">
 
           <a href="#" class="logo">
-            <img src="./assets/images/logo.svg" alt="Travelore logo">
+            <img src="./assets/images/logo-blue.svg" alt="Travelore logo">
           </a>
 
           <p class="footer-text">
-            Urna ratione ante harum provident, eleifend, vulputate molestiae proin fringilla, praesentium magna conubia
-            at
-            perferendis, pretium, aenean aut ultrices.
+            We curate the best travel experiences tailored just for you. With personalized itineraries, exclusive deals, and expert tips, planning your dream vacation has never been easier.
           </p>
 
         </div>
@@ -531,7 +336,7 @@
             <li class="contact-item">
               <ion-icon name="call-outline"></ion-icon>
 
-              <a href="tel:+01123456790" class="contact-link">+01 (123) 4567 90</a>
+              <a href="tel:+01123456790" class="contact-link">+91 9876543210</a>
             </li>
 
             <li class="contact-item">
@@ -543,7 +348,7 @@
             <li class="contact-item">
               <ion-icon name="location-outline"></ion-icon>
 
-              <address>3146 Koontz, California</address>
+              <address>#123 ABC Street, XYZ city</address>
             </li>
 
           </ul>
@@ -559,7 +364,7 @@
           <form action="" class="form-wrapper">
             <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
 
-            <button type="submit" class="btn btn-secondary">Subscribe</button>
+            <button type="submit" class="btn btn-secondary" id="subscibe_button">Subscribe</button>
           </form>
 
         </div>
@@ -571,24 +376,9 @@
       <div class="container">
 
         <p class="copyright">
-          &copy; 2022 <a href="">codewithsadee</a>. All rights reserved
+          &copy; 2024 |  <a href="">Made by Niharika & Liveleen | </a> All rights reserved
         </p>
 
-        <ul class="footer-bottom-list">
-
-          <li>
-            <a href="#" class="footer-bottom-link">Privacy Policy</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-bottom-link">Term & Condition</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-bottom-link">FAQ</a>
-          </li>
-
-        </ul>
 
       </div>
     </div>
