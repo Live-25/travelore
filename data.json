@@ -1,0 +1,56 @@
+
+  {
+    "destinations": {
+      "destination_id_1": {
+        "title": "San Miguel",
+        "description": "Fusce hic augue velit wisi ips quibusdam pariatur, iusto.",
+        "location": "Italy",
+        "image": "./assets/images/popular-1.jpg",
+        "rating": 5
+      },
+      "destination_id_2": {
+        "title": "Paris",
+        "description": "The city of love, famous for the Eiffel Tower.",
+        "location": "France",
+        "image": "./assets/images/popular-2.jpg",
+        "rating": 4
+      }
+    },
+    "packages": {
+      "package_id_1": {
+        "title": "Experience The Great Holiday On Beach",
+        "description": "Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque, cras, aspernatur.",
+        "location": "Malaysia",
+        "image": "./assets/images/packege-1.jpg",
+        "duration": "7D/6N",
+        "pax": 10,
+        "reviews": 25,
+        "rating": 5,
+        "price": 750
+      },
+      "package_id_2": {
+        "title": "Summer Holiday To The Oxolotan River",
+        "description": "Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque, cras, aspernatur.",
+        "location": "Malaysia",
+        "image": "./assets/images/packege-2.jpg",
+        "duration": "7D/6N",
+        "pax": 10,
+        "reviews": 20,
+        "rating": 5,
+        "price": 520
+      },
+      "package_id_3": {
+        "title": "Santorini Island's Weekend Vacation",
+        "description": "Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque, cras, aspernatur.",
+        "location": "Malaysia",
+        "image": "./assets/images/packege-3.jpg",
+        "duration": "7D/6N",
+        "pax": 10,
+        "reviews": 40,
+        "rating": 5,
+        "price": 660
+      }
+    }
+  }
+  
+  
